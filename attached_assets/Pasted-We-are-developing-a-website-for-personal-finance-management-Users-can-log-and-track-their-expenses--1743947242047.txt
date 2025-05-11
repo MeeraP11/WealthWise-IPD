@@ -1,0 +1,22 @@
+We are developing a website for personal finance management. Users can log and track their expenses and savings and we will predict the user's monthly expenses and help the user cut down his weekly expenses and meet their goals. Note : All is in Indian rupees
+
+The Expense tracker page will have a table with multiple columns - Date, Name of the expense (like where you ' re spending your money), Amount, Status (where the user will select 1 out of the 3 categories - Unnecessary, Necessary, and Avoidable), Categorization (where AI will auto categorize the expense record into different categories like - Transportation, Books, Food, Clothes, and many more acc. to the type of expense), Mode (Mode of payment - Wallet, UPI, Debit Card, Credit Card, Auto Debit, Cash, Net banking), Time of the Day (which will directly be put up according to the time the user logs in the expense. But the user will have the liberty to change the time of the expense ), Day of the week (which will directly be put up according to the date the user logs in the expense. But the user will have the liberty to change the day of the expense).
+
+Every week AI will collect and sum up the amount from the avoidable and unnecessary category and recommend to the user how much money the user can cut down per week which will be his target for the next week’s savings. This will be shown on the saving’s page - Savings predicted and Actual savings per week. The Savings page will also show the graph between the two. There will also be a digital piggy bank where the user can manually enter the savings amount.
+
+The Goals page will have all the goals that the user has listed for himself. He will tabulate his goals along with the cost required for it. As and when the savings reach a certain percentage or amount in the savings page that will be shown in the goals page in the form of percentage that how close is the user to get the required amount of money to reach his goal. The User will also enter the start date and the estimated date around which he wants to achieve that goal. The Goal can either be a product to be bought or money to be saved.
+
+The Future Prediction tab will predict the next month’s expenses of the user based on the user’s previous expenses from the expenses tab. We need to use an ML Model here that will analyze the user’s expenses, time of the cost, categories with highest expenses, day of the week with highest expense, and other such data to make accurate predictions of the user's next month’s expenses. The Future prediction tab will also have graphs showing predicted and actual expense and also its prediction for the next month.
+
+here will also be a tab named as achievements where the user's achievements will be displayed like 1. Goals met 2. Savings goal reached 3. Monthly expense less than predicted amount and so on.
+
+Gamification : 
+
+Suppose the sum of user's weekly avoidable and unnecessary expenses are 100 dollars. The AI as mentioned above  will recommend the user that this much money could have been saved which would be user's next week goal to save in the savings tab. Now suppose my week 1 shows that i could have saved 100 rupees. And in week 2 I save 50 of that 100 rupees that is 50% of what i should have saved - then i get 50 coins. If i had saved 20%  i would have gotten 20 coins and so on. 
+
+Users will get coins for 15 coins for maintaining daily streaks. After every consecutive 5 days user will get a bonus of 20 coins extra.  
+
+The user will get 100 coins when one of his goals is reached. 
+
+Every time user manually enters savings through digital piggy bank, he will get a bonus of 5 coins for saving money. 
+
